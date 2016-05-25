@@ -1,0 +1,51 @@
+
+.newCard{
+    background-color: #c5c5c5;
+    padding: 24px 124px;
+   margin-bottom: 20px;
+}
+
+.newCard-content{
+    margin-left: auto;
+    margin-right: auto;
+    width: 560px;
+    height: 24px;
+    padding: 10px;
+    margin-bottom: 20px;
+    display: block;
+    font-size: 16px;
+    border: 1px solid rgba(0, 0, 0, 0);
+    transition: height 0.2s linear,
+                border 0.2s   linear;
+}
+.newCard-content:hover{
+    height: 80px;
+    border: 2px solid rgba(3, 207, 255, 0.4);
+    
+}
+.newCard-action{
+    margin-left: auto;
+    margin-right: auto;
+    width: 84px;
+    height: 40px;
+    font-size: 16px;
+    font-family: 'Verdana',sans-serif;
+    display: block;
+    background-color: #3091c4;
+    cursor: pointer;
+}
+
+.error{
+    text-shadow: 0.1em 0.1em 0.05em #fff;
+    width: 309px;
+    height: 24px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    padding-top: 5px;
+    color:#FF1010;
+    display: block;
+    text-align: center;
+    
+   
+}

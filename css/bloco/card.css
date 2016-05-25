@@ -1,0 +1,82 @@
+
+.card{
+    display: inline-block;
+    box-sizing: border-box;
+    width: 25%;
+    padding: 16px;
+    position: relative;
+    margin: 10px;
+    transform: scale(1);
+    transition: transform .2s ease-in;
+   
+}
+
+.card:hover{
+      border:5px solid rgba(0,0,0,0);
+    transform: scale(1.1);
+}
+
+
+
+.warp-card-options{
+    position: absolute;
+    top: -16px;
+    left: 0;
+    opacity: 0;
+    transition: opacity 0.2s linear;
+}
+.card:hover .warp-card-options{
+    opacity: 1;
+}
+.card-options{
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: #FFF;
+
+    display: inline-block;
+    box-sizing: border-box;
+    width: 32px;
+    height: 32px;
+    text-indent: -9999px;
+    overflow: hidden;
+    border-radius: 50%;
+    border:2px solid rgba(0,0,0,0.4);
+    cursor: pointer;
+}
+.card_delete {
+    background-image: url(../../img/x.png);
+    margin-right: 8px;
+
+}
+
+.card_edit{
+    background-image: url(../../img/edit.png);
+
+}
+.card-options.isActive{
+    border:3px solid rgba(0,0,0,0.5);
+}
+
+.card-content[contenteditable="true"]{
+    outline: 2px dotted rgba(0,0,0,0.5);
+    background-color: #fff;
+}
+
+/*modificadoes de cor*/
+[data-color="1"]{
+    background-color: #45AAEE;
+
+}
+[data-color="2"]{
+    background-color: #FF1010; /*red*/
+}
+[data-color="3"]{
+    background-color: #76ef40;
+}
+[data-color="4"]{
+    background-color: #EBEF40;
+}
+
+
+
